@@ -10,27 +10,24 @@ lightweight, high performing platform which is a collection of OSGi bundles. All
 the major features which are included in WSO2 products have been developed as
 pluggable Carbon components and installed into this base Carbon platform.
 
-What's New In This Release
-----------------------------
+Key Features
+------------
 01. Java7/Java8 support - Starting from kernel 4.4.0 release, the kernel can now be compiled and run on both Java7 and Java8.
 02. Tomcat upgrade - Tomcat is upgraded to version 7.0.59.
 03. Tenant Eager Loading - WSO2 Carbon Kernel can now be configured to load specified set of tenants at server start-up.
-
-Key Features
-------------
-01. Composable Server Architecture - Provides a modular, light-weight, OSGi-based server development framework.
-02. Carbon Application(CApp) deployment support.
-03. Multi-Profile Support for Carbon Platform - This enable a single product to run on multiple modes/profiles.
-04. Carbon + Tomcat JNDI Context - Provide ability to access both carbon level and tomcat level JNDI resources to applications using a single JNDI context.
-05. Distributed Caching and Clustering functionality - Carbon kernel provides a distributed cache and clustering implementation which is based on Hazelcast- a group communication framework
-06. Pluggable Transports Framework - This is based on Axis2 transports module
-07. Registry/Repository API- Provide core registry/repository API for component developers
-08. User Management API - Provides a basic user management API for component developers
-09. Logging - Carbon kernel supports both Java logging as well as Log4j. Logs from both these sources will be aggregated to a single output
-10. Pluggable artifact deployer framework - Kernel can be extended to deploy any kind of artifacts such as Web services, Web apps, Business processes, Proxy services, User stores etc.
-11. Deployment Synchronization - Provides synchronization of deployed artifacts across a product cluster.
-12. Ghost Deployment - Provides a lazy loading mechanism for deployed artifacts
-13. Multi-tenancy support - The roots of the multi-tenancy in Carbon platform lies in the Carbon kernel. This feature includes tenant level isolation as well as lazy loading of tenants.
+04. Composable Server Architecture - Provides a modular, light-weight, OSGi-based server development framework.
+05. Carbon Application(CApp) deployment support.
+06. Multi-Profile Support for Carbon Platform - This enable a single product to run on multiple modes/profiles.
+07. Carbon + Tomcat JNDI Context - Provide ability to access both carbon level and tomcat level JNDI resources to applications using a single JNDI context.
+08. Distributed Caching and Clustering functionality - Carbon kernel provides a distributed cache and clustering implementation which is based on Hazelcast- a group communication framework
+09. Pluggable Transports Framework - This is based on Axis2 transports module
+10. Registry/Repository API- Provide core registry/repository API for component developers
+11. User Management API - Provides a basic user management API for component developers
+12. Logging - Carbon kernel supports both Java logging as well as Log4j. Logs from both these sources will be aggregated to a single output
+13. Pluggable artifact deployer framework - Kernel can be extended to deploy any kind of artifacts such as Web services, Web apps, Business processes, Proxy services, User stores etc.
+14. Deployment Synchronization - Provides synchronization of deployed artifacts across a product cluster.
+15. Ghost Deployment - Provides a lazy loading mechanism for deployed artifacts
+16. Multi-tenancy support - The roots of the multi-tenancy in Carbon platform lies in the Carbon kernel. This feature includes tenant level isolation as well as lazy loading of tenants.
 
 
 Carbon Binary Distribution Directory Structure
